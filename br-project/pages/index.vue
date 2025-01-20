@@ -1,0 +1,4 @@
+<template>
+    <BlockHero />
+    <BlockContent />
+</template>
