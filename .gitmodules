@@ -1,0 +1,3 @@
+[submodule "br-project/web-components"]
+	path = br-project/web-components
+	url = https://github.com/FRM95/web-components
