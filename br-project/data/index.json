@@ -1,5 +1,6 @@
 {
     "hero": {
-        "isFullHeight" : true
+        "isFullHeight" : true,
+        "title" : "Taking Art Further"
     }
 }
