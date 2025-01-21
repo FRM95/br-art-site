@@ -1,6 +1,9 @@
 {
     "nav": {
-        "title" : "Belén Rubiales",
-        "isHomeRef": true
+        "isFixed": true,
+        "content" : {
+            "title" : "Belén Rubiales",
+            "isHomeRef": true
+        }
     }
 }
