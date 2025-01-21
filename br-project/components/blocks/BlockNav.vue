@@ -1,6 +1,6 @@
 <template>
-    <nav class="h-16 bg-transparent fixed w-full">
-        <Header :isHomeRef :title>
+    <nav :class="navFixed" class="h-16 w-full">
+        <Header :isHomeRef :title class="text-white">
             <MenuToogle class="items-center">
                 <BootstrapList/>
             </MenuToogle>
@@ -18,5 +18,8 @@ const props = defineProps({
         default: null
     }
 });
-const { isHomeRef, title} = props.items;
+const { isFixed, content} = props.items;
+const navFixed = computed(() => isFixed ? 'z-50 fixed' : '');
+const isHomeRef = computed(() => content.isHomeRef);
+const title = computed(() => content.title ?? null);
 </script>
