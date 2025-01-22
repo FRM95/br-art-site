@@ -10,6 +10,14 @@
             {
                 "src" : "https://hungermag.com/_next/image?url=https%3A%2F%2Fadmin.hungermag.com%2Fapp%2Fuploads%2F2023%2F10%2Fdaido.jpg&w=1920&q=75",
                 "alt" : ""
+            },
+            {
+                "src" : "https://admin.hungermag.com/app/uploads/2023/09/3-18.jpg",
+                "alt" : ""
+            },
+            {
+                "src" : "https://hungermag.com/_next/image?url=https%3A%2F%2Fadmin.hungermag.com%2Fapp%2Fuploads%2F2023%2F10%2Fdaido.jpg&w=1920&q=75",
+                "alt" : ""
             }
         ]
     }

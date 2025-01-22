@@ -1,5 +1,5 @@
 <template>
-    <BlockNav :items="nav"></BlockNav>
+    <BlockNav :headerItems="nav" :sidebarItems="sidebar"></BlockNav>
     <main>
         <slot></slot>        
     </main>
@@ -7,5 +7,5 @@
 </template>
 
 <script setup lang="ts">
-import { nav } from "../data/common.json";
+import { nav, sidebar } from "~/data/common.json";
 </script>

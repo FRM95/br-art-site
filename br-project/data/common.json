@@ -2,8 +2,45 @@
     "nav": {
         "isFixed": true,
         "content" : {
-            "title" : "Belén Rubiales",
-            "isHomeRef": true
+            "references" : [
+                {
+                    "value" : "Belén Rubiales",
+                    "href": "/",
+                    "label" : "",
+                    "target" : "_self",
+                    "tailwindcls" : "invisible md:visible"
+                }
+            ]
+        }
+    },
+    "sidebar" : {
+        "content" : {
+            "references" : [
+                {
+                    "value" : "Bio",
+                    "href": "#Bio",
+                    "label" : "",
+                    "target" : "_self"
+                },
+                {
+                    "value" : "Work",
+                    "href": "#Work",
+                    "label" : "",
+                    "target" : "_self"
+                },
+                {
+                    "value" : "Press",
+                    "href": "#Press",
+                    "label" : "",
+                    "target" : "_self"
+                },
+                {
+                    "value" : "About",
+                    "href": "#About",
+                    "label" : "",
+                    "target" : "_self"
+                }
+            ]
         }
     }
 }

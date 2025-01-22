@@ -22,11 +22,12 @@ export default defineNuxtConfig({
       pathPrefix: false
     }
   ],
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/css/main.css', '~/web-components/css/animations.css'],
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+  modules: ["@pinia/nuxt"],
 })
