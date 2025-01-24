@@ -34,7 +34,7 @@ const props = defineProps({
 const headerFixed = props.headerItems.isFixed ?? false;
 const headerReferences = props.headerItems.content.references ?? null;
 const navFixed = computed(() => headerFixed ? 'z-50 fixed' : '');
-const navFullScreen = computed(() => sidebarStore.isSidebarOpen ? 'h-screen grid-rows-12' : '');
+const navFullScreen = computed(() => sidebarStore.isSidebarOpen ? 'h-screen grid-rows-12 backdrop-blur-sm' : '');
 
 /* Header items */
 const sidebarReferences = computed(() => props.sidebarItems.content.references ?? null);
@@ -45,6 +45,6 @@ nav {
     grid-template-rows: auto 1fr;
 }
 .nav-sidebar{
-    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215, 0.5);
 }
 </style>

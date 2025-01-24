@@ -1,6 +1,6 @@
 <template>
     <BlockHero :items="hero"/>
-    <BlockContent />
+    <BlockBio />
 </template>
 
 <script setup lang="ts">
