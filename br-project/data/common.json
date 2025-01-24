@@ -42,5 +42,78 @@
                 }
             ]
         }
+    },
+    "footer" : {
+        "sections" : [
+            {
+                "title": "Work",
+                "content" : {
+                    "text" : "For commissions, custom prints, commercial or portfolio requests, please contact belenrubiales@br.com."
+                }
+            },
+            {
+                "title": "Studio",
+                "content" : {
+                    "references": [
+                        {
+                            "value" : "Club Bicéfalo",
+                            "href": "http://www.clubbicefalo.com",
+                            "label" : "",
+                            "target" : "_blank"
+                        },
+                        {
+                            "value" : "Calle del Petirrojo 38, Madrid.",
+                            "href": "https://maps.app.goo.gl/7V5cVP2jU9A8KAqb8",
+                            "label" : "",
+                            "target" : "_blank"
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Social Media",
+                "content" : {
+                    "references" : [
+                        {
+                            "value" : "Instagram",
+                            "href": "https://www.instagram.com",
+                            "label" : "",
+                            "target" : "_blank"
+                        },
+                        {
+                            "value" : "Facebook",
+                            "href": "https://www.facebook.com",
+                            "label" : "",
+                            "target" : "_blank"
+                        },
+                        {
+                            "value" : "Twitter/X",
+                            "href": "https://www.twitter.com",
+                            "label" : "",
+                            "target" : "_blank"
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Other sites",
+                "content" : {
+                    "references": [
+                        {
+                            "value" : "Developed",
+                            "href": "https://github.com/FRM95",
+                            "label" : "",
+                            "target" : "_blank"
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Content license",
+                "content" : {
+                    "text" : "Copyright © 2025 Belén Rubiales"
+                }
+            }
+        ]
     }
 }

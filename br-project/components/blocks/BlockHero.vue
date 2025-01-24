@@ -1,5 +1,5 @@
 <template>
-    <Hero :isFullHeight :title class="z-0 relative">
+    <Hero :isFullHeight :title class="">
         <ImagesCarrousel :images />
     </Hero>
 </template>

@@ -3,9 +3,9 @@
     <main>
         <slot></slot>        
     </main>
-    <BlockFooter></BlockFooter>
+    <BlockFooter :items="footer"></BlockFooter>
 </template>
 
 <script setup lang="ts">
-import { nav, sidebar } from "~/data/common.json";
+import { nav, sidebar, footer } from "~/data/common.json";
 </script>
